@@ -1,0 +1,2 @@
+rootProject.name='LifecycleRecomend'
+include ':app'
