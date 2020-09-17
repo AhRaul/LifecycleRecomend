@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lifeCyclePresenter = new LifeCyclePresenter();
+
+        //шаг 3: подписать LifeCyclePresenter на MainActivity
         getLifecycle().addObserver(lifeCyclePresenter);
     }
 }
